@@ -1,0 +1,16 @@
+PODS:
+  - IQAlertController (1.0.0)
+
+DEPENDENCIES:
+  - IQAlertController (from `.`)
+
+EXTERNAL SOURCES:
+  IQAlertController:
+    :path: .
+
+SPEC CHECKSUMS:
+  IQAlertController: ecf4c1d6024e3ffb2a08c54c146654a6fd385def
+
+PODFILE CHECKSUM: 56513c2f8e7a7dd83540f31f745b0b108b42f9f9
+
+COCOAPODS: 1.2.1

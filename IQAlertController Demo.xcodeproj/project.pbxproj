@@ -1,0 +1,411 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		481621124E07365F91F33A19 /* libPods-IQAlertController Demo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 539E8758ABD759D52B23CEA1 /* libPods-IQAlertController Demo.a */; };
+		4C2AEA401F35AA89000754A4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C2AEA3F1F35AA89000754A4 /* main.m */; };
+		4C2AEA431F35AA89000754A4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C2AEA421F35AA89000754A4 /* AppDelegate.m */; };
+		4C2AEA491F35AA89000754A4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C2AEA471F35AA89000754A4 /* Main.storyboard */; };
+		4C2AEA4B1F35AA89000754A4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C2AEA4A1F35AA89000754A4 /* Assets.xcassets */; };
+		4C2AEA4E1F35AA89000754A4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C2AEA4C1F35AA89000754A4 /* LaunchScreen.storyboard */; };
+		4C2AEA571F35C6B7000754A4 /* ModalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C2AEA561F35C6B7000754A4 /* ModalViewController.m */; };
+		4C2AEA5A1F35DC9F000754A4 /* MainTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C2AEA591F35DC9F000754A4 /* MainTableViewController.m */; };
+		4C2AEA5D1F35DCAC000754A4 /* OptionTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C2AEA5C1F35DCAC000754A4 /* OptionTableViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1E5AB43E8A5E84708038A325 /* Pods-IQAlertController Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IQAlertController Demo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IQAlertController Demo/Pods-IQAlertController Demo.debug.xcconfig"; sourceTree = "<group>"; };
+		2ABBC35EBEE6A54679BFC2FE /* Pods-IQAlertController Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IQAlertController Demo.release.xcconfig"; path = "Pods/Target Support Files/Pods-IQAlertController Demo/Pods-IQAlertController Demo.release.xcconfig"; sourceTree = "<group>"; };
+		4C2AEA3B1F35AA89000754A4 /* IQAlertController Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "IQAlertController Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C2AEA3F1F35AA89000754A4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4C2AEA411F35AA89000754A4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4C2AEA421F35AA89000754A4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4C2AEA481F35AA89000754A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4C2AEA4A1F35AA89000754A4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4C2AEA4D1F35AA89000754A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4C2AEA4F1F35AA89000754A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C2AEA551F35C6B7000754A4 /* ModalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModalViewController.h; sourceTree = "<group>"; };
+		4C2AEA561F35C6B7000754A4 /* ModalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModalViewController.m; sourceTree = "<group>"; };
+		4C2AEA581F35DC9F000754A4 /* MainTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTableViewController.h; sourceTree = "<group>"; };
+		4C2AEA591F35DC9F000754A4 /* MainTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainTableViewController.m; sourceTree = "<group>"; };
+		4C2AEA5B1F35DCAC000754A4 /* OptionTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OptionTableViewController.h; sourceTree = "<group>"; };
+		4C2AEA5C1F35DCAC000754A4 /* OptionTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OptionTableViewController.m; sourceTree = "<group>"; };
+		539E8758ABD759D52B23CEA1 /* libPods-IQAlertController Demo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-IQAlertController Demo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4C2AEA381F35AA89000754A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				481621124E07365F91F33A19 /* libPods-IQAlertController Demo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0C98A2420B558E2D88B7D775 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				539E8758ABD759D52B23CEA1 /* libPods-IQAlertController Demo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4C2AEA321F35AA89000754A4 = {
+			isa = PBXGroup;
+			children = (
+				4C2AEA3D1F35AA89000754A4 /* IQAlertController Demo */,
+				4C2AEA3C1F35AA89000754A4 /* Products */,
+				E2D6C6803EB6B649ADC835F9 /* Pods */,
+				0C98A2420B558E2D88B7D775 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4C2AEA3C1F35AA89000754A4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4C2AEA3B1F35AA89000754A4 /* IQAlertController Demo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4C2AEA3D1F35AA89000754A4 /* IQAlertController Demo */ = {
+			isa = PBXGroup;
+			children = (
+				4C2AEA411F35AA89000754A4 /* AppDelegate.h */,
+				4C2AEA421F35AA89000754A4 /* AppDelegate.m */,
+				4C2AEA581F35DC9F000754A4 /* MainTableViewController.h */,
+				4C2AEA591F35DC9F000754A4 /* MainTableViewController.m */,
+				4C2AEA5B1F35DCAC000754A4 /* OptionTableViewController.h */,
+				4C2AEA5C1F35DCAC000754A4 /* OptionTableViewController.m */,
+				4C2AEA471F35AA89000754A4 /* Main.storyboard */,
+				4C2AEA4A1F35AA89000754A4 /* Assets.xcassets */,
+				4C2AEA4C1F35AA89000754A4 /* LaunchScreen.storyboard */,
+				4C2AEA4F1F35AA89000754A4 /* Info.plist */,
+				4C2AEA3E1F35AA89000754A4 /* Supporting Files */,
+				4C2AEA551F35C6B7000754A4 /* ModalViewController.h */,
+				4C2AEA561F35C6B7000754A4 /* ModalViewController.m */,
+			);
+			path = "IQAlertController Demo";
+			sourceTree = "<group>";
+		};
+		4C2AEA3E1F35AA89000754A4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4C2AEA3F1F35AA89000754A4 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E2D6C6803EB6B649ADC835F9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1E5AB43E8A5E84708038A325 /* Pods-IQAlertController Demo.debug.xcconfig */,
+				2ABBC35EBEE6A54679BFC2FE /* Pods-IQAlertController Demo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4C2AEA3A1F35AA89000754A4 /* IQAlertController Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C2AEA521F35AA89000754A4 /* Build configuration list for PBXNativeTarget "IQAlertController Demo" */;
+			buildPhases = (
+				84EE1DCFDDD99FA3347D35D7 /* [CP] Check Pods Manifest.lock */,
+				4C2AEA371F35AA89000754A4 /* Sources */,
+				4C2AEA381F35AA89000754A4 /* Frameworks */,
+				4C2AEA391F35AA89000754A4 /* Resources */,
+				DEF0837869A90D59C0790075 /* [CP] Embed Pods Frameworks */,
+				1FA15374852CCE4A4EB0EDEC /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "IQAlertController Demo";
+			productName = "IQAlertController Demo";
+			productReference = 4C2AEA3B1F35AA89000754A4 /* IQAlertController Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4C2AEA331F35AA89000754A4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Iftekhar;
+				TargetAttributes = {
+					4C2AEA3A1F35AA89000754A4 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 7UUTF6T5P9;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 4C2AEA361F35AA89000754A4 /* Build configuration list for PBXProject "IQAlertController Demo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4C2AEA321F35AA89000754A4;
+			productRefGroup = 4C2AEA3C1F35AA89000754A4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4C2AEA3A1F35AA89000754A4 /* IQAlertController Demo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4C2AEA391F35AA89000754A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C2AEA4E1F35AA89000754A4 /* LaunchScreen.storyboard in Resources */,
+				4C2AEA4B1F35AA89000754A4 /* Assets.xcassets in Resources */,
+				4C2AEA491F35AA89000754A4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1FA15374852CCE4A4EB0EDEC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IQAlertController Demo/Pods-IQAlertController Demo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		84EE1DCFDDD99FA3347D35D7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DEF0837869A90D59C0790075 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IQAlertController Demo/Pods-IQAlertController Demo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4C2AEA371F35AA89000754A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C2AEA571F35C6B7000754A4 /* ModalViewController.m in Sources */,
+				4C2AEA431F35AA89000754A4 /* AppDelegate.m in Sources */,
+				4C2AEA5A1F35DC9F000754A4 /* MainTableViewController.m in Sources */,
+				4C2AEA5D1F35DCAC000754A4 /* OptionTableViewController.m in Sources */,
+				4C2AEA401F35AA89000754A4 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4C2AEA471F35AA89000754A4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4C2AEA481F35AA89000754A4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4C2AEA4C1F35AA89000754A4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4C2AEA4D1F35AA89000754A4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4C2AEA501F35AA89000754A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4C2AEA511F35AA89000754A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4C2AEA531F35AA89000754A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E5AB43E8A5E84708038A325 /* Pods-IQAlertController Demo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7UUTF6T5P9;
+				INFOPLIST_FILE = "IQAlertController Demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.iftekhar.IQAlertController-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4C2AEA541F35AA89000754A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2ABBC35EBEE6A54679BFC2FE /* Pods-IQAlertController Demo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7UUTF6T5P9;
+				INFOPLIST_FILE = "IQAlertController Demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.iftekhar.IQAlertController-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4C2AEA361F35AA89000754A4 /* Build configuration list for PBXProject "IQAlertController Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C2AEA501F35AA89000754A4 /* Debug */,
+				4C2AEA511F35AA89000754A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C2AEA521F35AA89000754A4 /* Build configuration list for PBXNativeTarget "IQAlertController Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C2AEA531F35AA89000754A4 /* Debug */,
+				4C2AEA541F35AA89000754A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4C2AEA331F35AA89000754A4 /* Project object */;
+}

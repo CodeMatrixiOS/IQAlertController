@@ -1,0 +1,25 @@
+{
+  "name": "IQAlertController",
+  "version": "1.0.0",
+  "source": {
+    "git": "https://github.com/hackiftekhar/IQAlertController.git",
+    "tag": "v1.0.0"
+  },
+  "summary": "Show UIView or UIViewController in an alert box.",
+  "homepage": "https://github.com/hackiftekhar/IQAlertController",
+  "license": "MIT",
+  "authors": {
+    "Iftekhar Qurashi": "hack.iftekhar@gmail.com"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "IQAlertController/**/*.{h,m}",
+  "frameworks": [
+    "UIKit",
+    "Foundation",
+    "CoreGraphics",
+    "QuartzCore"
+  ],
+  "requires_arc": true
+}
